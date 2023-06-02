@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:hole_spread_splash/hole_spread_splash.dart';
-
 import 'home_page.dart';
 
 void main() {
@@ -25,6 +24,8 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               destinationPage: const HomePage(),
+              holeColor: Colors.amber,
+              outerColor: Colors.black,
             )
       },
     );
