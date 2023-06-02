@@ -1,9 +1,9 @@
 name: hole_spread_splash
-description: Splash flutter package with expanding hole
+description: Splash package with expanding hole
 version: 1.0.0
 publisher: skyy630@naver.com
 homepage: https://github.com/2Juzzang
-repository: https://github.com/111coding/flutter_custom_sliver
+repository: https://github.com/2Juzzang/hole_spread_splash
 
 environment:
   sdk: '>=2.19.4 <3.0.0'
