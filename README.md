@@ -23,6 +23,7 @@ To use Hole Spread Splash in your Flutter project, follow these steps:
    ```
 
 2. Run flutter pub get to install the package.
+   <br/>
 
 ## Usage
 
@@ -83,10 +84,12 @@ class MyApp extends StatelessWidget {
 ```
 
 4. Run your Flutter app and enjoy the splash screen with the expanding hole animation effect!
+   <br/>
 
 ## Example
 
 For a complete example of using Hole Spread Splash, please refer to the example directory of this package.
+<br/>
 
 ## License
 
