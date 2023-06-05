@@ -19,10 +19,12 @@ class Splash extends StatefulWidget {
     this.outerColor,
     this.holePainterX,
     this.holePainterY,
+    this.fadeOutDuration,
   }) : super(key: key);
   Widget logo; //원 안에 들어갈 로고
   Widget destinationPage; //애니메이션이 끝나고 이동할 페이지
   Duration? animationDuration; //스플래시 애니메이션 시간
+  Duration? fadeOutDuration; //로고 페이드아웃 애니메이션 시간
   Widget? additionalLogo; //추가 로고
   double? additionalLogoLeftPosition; //추가 로고 위치설정
   double? additionalLogoTopPosition;
@@ -76,7 +78,8 @@ class _SplashState extends State<Splash> with SingleTickerProviderStateMixin {
                       opacity: animation,
                       child: child,
                     ),
-                    transitionDuration: const Duration(milliseconds: 500),
+                    transitionDuration: widget.fadeOutDuration ??
+                        const Duration(milliseconds: 500),
                     pageBuilder: (context, animation, secondaryAnimation) =>
                         widget.destinationPage,
                   ),

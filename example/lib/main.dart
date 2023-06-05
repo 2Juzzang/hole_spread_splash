@@ -24,8 +24,13 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               destinationPage: const HomePage(),
-              holeColor: Colors.amber,
-              outerColor: Colors.black,
+              additionalLogo: const Center(
+                child: Text(
+                  '홍진경',
+                  style: TextStyle(fontSize: 24),
+                ),
+              ),
+              additionalLogoTopPosition: 120,
             )
       },
     );
