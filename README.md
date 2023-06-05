@@ -16,7 +16,7 @@ To use Hole Spread Splash in your Flutter project, follow these steps:
 
    ```yaml
    dependencies:
-     hole_spread_splash: ^0.0.1
+     hole_spread_splash: ^0.0.2
 
    Run flutter pub get to install the package.
 

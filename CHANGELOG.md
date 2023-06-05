@@ -1,3 +1,3 @@
-## 0.0.1
+## 0.0.2
 
-- Flutter custom hole spread splash pre release
+- fade out duration feature has been added
